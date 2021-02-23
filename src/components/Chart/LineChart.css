@@ -1,0 +1,20 @@
+.tooltip {
+    position: absolute;
+    padding: 10px;
+    font: 12px sans-serif;
+    background: white;
+    border: 1px;
+    border-style: solid;
+    pointer-events: none;
+    text-align: left;
+}
+
+.grid line {
+    stroke: lightgrey;
+    stroke-opacity: 0.6;
+    shape-rendering: crispEdges;
+}
+
+.grid path {
+    stroke-width: 0;
+}
